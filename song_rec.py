@@ -23,7 +23,7 @@ def main():
     
     # Display the sampled songs
     st.write("Selected Mood:", x)
-    st.write("Sampled Songs:")
+    st.write("Spotify id for 5",x,"songs")
     st.dataframe(sampled_songs[['id']])
     
     for song_id in sampled_songs['id']:
