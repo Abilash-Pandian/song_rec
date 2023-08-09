@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import pyperclip
 
 # Read the CSV file
 df = pd.read_csv("C:\\Users\\Abilash Pandian\\OneDrive\\Desktop\\DATASETS\\data_moods.csv")
