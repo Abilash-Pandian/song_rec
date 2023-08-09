@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Read the CSV file
-df = pd.read_csv("C:\\Users\\Abilash Pandian\\OneDrive\\Desktop\\DATASETS\\data_moods.csv")
+df = pd.read_csv("data_moods.csv")
 
 # Drop unnecessary columns
 df = df.drop(columns=['name', 'album', 'artist', 'release_date'])
