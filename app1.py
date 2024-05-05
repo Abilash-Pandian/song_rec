@@ -17,7 +17,7 @@ from sklearn.ensemble import RandomForestClassifier
 plt.rcParams['figure.figsize'] = [10, 6]
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv("D:\\DLL\\archive\\song_data.csv")
+df = pd.read_csv("song_data.csv")
 df.head()
 
 df.info()
